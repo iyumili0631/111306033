@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Introduce</title>
+</head>
+<body>
+
+<table border = "5" style = "width:25%">
+
+	<tr>
+		<th colspan = "2"><p><a href = "https://zh.wikipedia.org/zh-tw/%E9%95%BF%E9%A2%88%E9%B9%BF" ><img src = "https://images.chinatimes.com/newsphoto/2021-01-16/1024/20210116003562.jpg" width = "300" height = "200" alt = Giraffe picture ></a></p></th>
+	</tr>
+	<tr>
+		<th><p><em> Student ID </em></p></th>
+		<td><div align = "center"> 111306033 </div></td>
+	</tr>
+	<tr>
+		<th><p><em> Name </em></p></th>
+		<td><p><div align = "center"> 陳婕語 </div></p></td>
+	</tr>
+	<tr>
+		<th><p><em> Habits </em></p></th>
+		<td><p><div align="center"> Painting & Play Volleyball & Reading </div></p></td>
+	</tr>
+	<tr>
+		<th><p><em> My favorite thing </em></p></th>
+		<td><p><div align="center"> Giraffe & Drinks </div></p></td>
+	</tr>
+	<tr>
+		<th><p><em> To write to </em></p></th>
+		<td><p><div align="center"><a href="mailto:111306033@g.nccu.edu.tw "> My email </a></div></p></td>
+	</tr>
+
+</table>
+
+</body>
+</html>
