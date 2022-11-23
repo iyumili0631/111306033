@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Feedback Form </title>
+	<style type="text/css">
+		body{
+			background-color:#fff6c2 ;
+			color:#034c73;
+			margin-left: 180pt;
+		}
+
+		h1{
+			font-family: fantasy ;
+		}
+
+		h2{
+			font-weight: bold;
+		}
+
+		p{
+			font-size: 12pt;
+		}
+
+		.background{
+			background-color: white;
+			margin-right: 180pt;
+			border: solid;
+		}
+
+		#buttom{
+			color: #034c73;
+			background-color: white;
+			border: solid;
+		}
+		span {
+			margin-left:10pt ;
+		}
+
+	</style>
+</head>
+<body>
+	<form method = "post" action = "http://www.deitel.com/">
+	<form action = "/action_page.php">
+
+	<h1> Feedback Form </h1>
+
+	<p><em> Please fill out this form to help us improve our site. </em></p>
+
+	<div class = "background">
+		<p><label><span> Name:</span>
+			<input type = "text" name = "name" size = "25" maxlength="30"> 
+		</label></p>
+
+		<p><span> Comment:</span></p> 
+		<p><span><textarea row = "50" cols = "50"> Enter comments here.
+		</textarea></span></p>
+
+		<p><label><span>E-mail Address:</span> 
+			<input type = "text" name = "E-mail" size = "25" maxlength = "30">
+		</label></p>
+	</div>
+
+	<h2> Things you liked : </h2>
+
+	<div class = "background">
+	<form method = "get" action = "/action_page.php">
+		<input type = "checkbox" name = "Like" value = "Site Design"> Site Design <br>
+		<input type = "checkbox" name = "Like" value = "Links"> Links <br>
+		<input type = "checkbox" name = "Like" value = "Ease of use"> Ease of use <br>
+		<input type = "checkbox" name = "Like" value = "Images"> Images <br>
+		<input type = "checkbox" name = "Like" value = "Source Code"> Source Code <br> 
+	</div>
+
+
+	<h2> How did you get to our site ? </h2>
+
+	<div class = "background">
+		<input type= "radio" name = "From" value = "Search Engine" checked > Search Engine <br>
+		<input type= "radio" name = "From" value = "Links from another site" > Links from another site <br>
+		<input type= "radio" name = "From" value = "Deitel.com Web site" > Deitel.com Web site <br>
+		<input type= "radio" name = "From" value = "Reference in a book" > Refernce in a book <br>
+		<input type= "radio" name = "From" value = "Other" > Other <br>
+
+	<p><span>Rate our site :
+		<select name = "Feel">
+			<option value = "Amazing" selected > Amazing </option>
+			<option value = "Great" > Great </option>
+			<option value = "Normal" > Normal </option>
+			<option value = "Bad" > Bad </option>
+			<option value = "Terrible" > Terrible </option>
+		</select>
+	</span>
+	</p>
+	</div>
+	
+	<br>
+		<input type= "submit" id = "buttom" value = "Submit">
+		<input type= "reset"  id = "buttom" value = "Clear">
+	</br>
+
+</form>
+</form>
+
+</body>
+</html>

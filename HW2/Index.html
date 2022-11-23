@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Index</title>
+	<style type="text/css">
+		body {
+			background-color: #a9b574;
+			color:#523218;
+			margin-left: 200pt;
+		}
+		h1 {
+			color:#452919;
+			margin-left: 200pt;
+		}
+		em {
+			font-weight: bold;
+			font-size: 18pt;
+			color:#78503a;
+		}
+		p{
+			font-weight: bold;
+			font-size: 12pt;
+		}
+		.form{
+			background-color: white;
+			margin-right: 180pt;
+		}
+		#link{
+			color:white;
+			font-size: 14pt;
+		}
+		span{
+			border: 2px solid #452919;
+		}
+	</style>
+	<link rel = "stylesheet" type = "text/css" href = "css.css">
+
+</head>
+<body>
+	<form method = "post" action = "http://www.deitel.com/">
+	<form action="/action_page.php">
+	<h1> New HTML5 Input Types Demo </h1>
+	<p><em> This form demonstrates the HTML5 input types and the placeholder, required and autofocus attributes. </em></p>
+
+	<div class = "form">
+	<p><label><span> Color </span>
+		<input type = "Color" autofocus>
+		( Hexadecimal code such as #ADD8E6 )
+	</label></p>
+
+	<p><label for = "Date"> Date:  
+		<input type = "Date" id = "date" name = "date">	
+		( yyyy-mm-dd )
+	</label></p>
+
+	<p><label for = "E-mail"><span> E-mail </span>
+		<input type = "E-mail" name = "E-mail" placeholder = "name@domain.com" required>
+		( name@domain.com )
+	</label></p>
+
+	<p><label for = "number"> Number:
+		<input type = "number" id = "name" name = "name" min = "0" max = "7" value = "0">
+		( Enter a number between 0 and 7 )
+	</label></p>
+
+	<p><label><span> Range: 0 </span> 
+		<input type = "Range" id= "Range" name = "Range" min = "0" max = "20"> 20
+	</label></p>
+
+	<p><label> Search:
+		<input type = "Search" id = "Search" name = "Search">
+	</label></p>
+
+	<p><label><span> Time </span>
+		<input type = "Time" id = "time" name = "Time">
+		( hh:mm )
+	</label></p>
+		
+		<input type= "submit" value = "Submit">
+		<input type= "reset" value = "Clear">
+
+	</div>
+	
+	<p><a href="Introduce.html" id = "link"> To see my introduction and giraffe. </a></p>
+	<p><a href="FeedBackForm.html" id = "link"> Click it to write another form. </a></p>
+
+
+</form>
+</body>
+</html>
