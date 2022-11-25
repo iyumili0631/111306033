@@ -1,0 +1,50 @@
+body {
+	background-color: #757d8f ;
+	background-image: url("whale.png") ;
+	color: white;
+}
+
+h1{
+	font-weight: bold ;
+	font-size: 25pt ;
+	text-align: center ;
+	color: white ;
+}
+
+nav {
+	font-weight: bold ;
+	color: white ;
+	border: 2px solid white;
+	text-align: center ;
+	width: 30em ;
+	background-color: #2b4a8f ;
+	margin-left: 390pt ;
+	margin-top: 50pt ;
+}
+
+nav ul {
+	display: block ;
+	list-style: none ;
+	margin-left: 30pt ;
+	padding: 0 ;
+}
+
+nav ul:hover {
+	display: block ;
+}
+
+nav ul li {
+	border-top: 2px solid  ;
+	background-color: white ;
+	width: 25em ;
+	color: #223c73;
+}
+
+nav ul li:hover {
+	background-color: #d1d7e3 ;
+}
+
+a {
+	text-decoration: none ;
+}
+
