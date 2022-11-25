@@ -1,7 +1,14 @@
 body {
-	background-color: #757d8f ;
+	background-color: #734d44 ;
 	background-image: url("whale.png") ;
+	background-size: 500px;
 	color: white;
+}
+
+@media screen and (min-width:1000px){
+	body{
+		background-color: #757d8f;
+	}
 }
 
 h1{
@@ -51,4 +58,7 @@ nav ul li:hover {
 a {
 	text-decoration: none ;
 }
+
+	
+
 
