@@ -1,22 +1,19 @@
 body {
-	background-color: #cfcdf7;
+	background-color: #f7f4cd;
+}
+
+img {
+	float: none;
+	width: 100%;
+	height: 100%;
+	border-style: dotted;
 }
 
 .Input {
-	margin-right: auto;
-	margin-left: auto;
-	width: 50%;
-	height: 50%;
-	float: right;
-}
-
-.Textarea {
+	float:none ;
 	margin-right: auto;
 	margin-left: auto;
 	width: 50%;
 	height: 50%;
 }
 
-.float {
-	margin-left: 20px;
-}
