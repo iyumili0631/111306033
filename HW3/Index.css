@@ -1,8 +1,22 @@
+body {
+	background-color: #cfcdf7;
+}
+
 .Input {
-	display: flex;
-	background-color: lightyellow ;
+	margin-right: auto;
+	margin-left: auto;
+	width: 50%;
+	height: 50%;
+	float: right;
 }
 
 .Textarea {
+	margin-right: auto;
+	margin-left: auto;
+	width: 50%;
+	height: 50%;
+}
 
+.float {
+	margin-left: 20px;
 }
