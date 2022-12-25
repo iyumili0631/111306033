@@ -1,0 +1,16 @@
+body {
+	background-color: #e8e8e8;
+	text-align:center;
+}
+
+.button {
+	background-color: #ffc342;
+	border-radius: 3px;
+	width: 170.4px;
+	height: 22px;
+}
+
+.select {
+	width: 170.4px;
+	height:22px;
+}
